@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Plucky.Common
+namespace Plucky.System
 {
     public static class IDictionaryExtensions
     {
