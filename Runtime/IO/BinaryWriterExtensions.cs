@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-namespace Plucky.System
+namespace Plucky.SystemExtensions
 {
     public static class BinaryWriterExtensions
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Plucky.System
+namespace Plucky.SystemExtensions
 {
     public static class IEnumerableExtensions
     {
