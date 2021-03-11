@@ -8,6 +8,14 @@ namespace Plucky.System
     {
         public static Random rng = new Random();
 
+        public static void ForEach<T>(this IEnumerable<T> coll, Action<T> action)
+        {
+            foreach (T element in coll)
+            {
+                action(element);
+            }
+        }
+
         public static T Smallest<T>(this IEnumerable<T> coll, Func<T, T, int> compareTo)
         {
             T result = default(T);
