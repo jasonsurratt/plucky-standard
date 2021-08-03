@@ -18,7 +18,7 @@ namespace Plucky.SystemExtensions
 
         public static T Smallest<T>(this IEnumerable<T> coll, Func<T, T, int> compareTo)
         {
-            T result = default(T);
+            T result = default;
             bool foundOne = false;
 
             foreach (T t in coll)
